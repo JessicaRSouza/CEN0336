@@ -21,6 +21,6 @@ favs["organismo"] = "Elefante"
 coisa_fav = "organismo"
 print("Meu organismo favorito é", favs[coisa_fav])
 
-#Exercício 6 - Obtenha um valor da linha de comando para "coisa_fav" e print o valor desse item do dicionário.
-#Talvez você queira imprimir todas as chaves para o usuário, para que eles saibam o que escolher.
-#Dê uma olhada em input().
+#Exercício 7 - Altere o valor do seu organismo favorito
+favs["organismo"] = "Sabiá"
+print("Meu organismo favorito é", favs["organismo"])
