@@ -24,3 +24,8 @@ print("Meu organismo favorito é", favs[coisa_fav])
 #Exercício 7 - Altere o valor do seu organismo favorito
 favs["organismo"] = "Sabiá"
 print("Meu organismo favorito é", favs["organismo"])
+
+#Exercício 9 - Use um loop for para imprimir cada chave e valor do dicionário
+for coisa in favs:
+	favorito = favs[coisa]
+	print(coisa, favorito)
